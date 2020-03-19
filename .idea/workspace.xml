@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e1d11f0-3a61-48aa-87d7-de6054eafe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/admincss/admincss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/admin/approved.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/approved.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/admin/approved_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/approved_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/admin/pending_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/pending_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/admin/rejected_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/rejected_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/admin/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/tables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/admin/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/admin/team_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/team_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/admin/team_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/team_main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/admin/timetable_appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/timetable_appointment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/admin/timetable_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/timetable_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/TeamProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamProjectGithub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/admin/TeamProjectGithub.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +35,25 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/HTML/admin" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -143,11 +139,36 @@
       <option name="project" value="LOCAL" />
       <updated>1584652175948</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Student Part Static Web Page">
+      <created>1584653799954</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584653799954</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Student Part Static Web Page">
+      <created>1584654936198</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584654936198</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
