@@ -1,0 +1,17 @@
+.meeting-title{
+    margin-top: 40px;
+    font-size: xx-large;
+}
+
+.timetable{
+    margin-top: 10px;
+}
+
+.inlineForm{
+    display: inline-block;
+}
+
+.pushleft{
+    display:inline-block;
+    margin-left: 900px;
+}

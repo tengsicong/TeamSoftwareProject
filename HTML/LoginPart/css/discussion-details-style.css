@@ -1,0 +1,60 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+
+
+.question-info {
+  width: 97%;
+  margin: 1em auto 0;
+}
+
+/*--.reply-panel--*/
+.reply-panel {
+  width: 97%;
+  padding: 1.5em;
+  margin: auto
+}
+.reply-panel p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.8em;
+}
+/*--//.reply-panel--*/
+
+/*--.input-reply-panel--*/
+.input-reply-panel {
+  width: 97%;
+  padding: 1.5em;
+  margin: auto
+}
+.input-reply-panel > .input-reply-area{
+  width: 90%;
+  height: 80%;
+  margin: 1em auto 0;
+}
+
+.sub-reply  input[type="submit"] {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background: #f2b33f;
+  width: 10%;
+  padding: .6em 1em;
+  font-size: 1em;
+  margin: 0.5em auto 0em;
+  display: block;
+transition: 0.5s all;
+-webkit-transition: 0.5s all;
+-moz-transition: 0.5s all;
+-ms-transition: 0.5s all;
+-o-transition: 0.5s all;
+-ms-transition: 0.5s all;
+}
+.sub-reply input[type="submit"]:hover {
+  background-color: #337ab7;
+}
+/*--//.input-reply-panel--*/
