@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3e1d11f0-3a61-48aa-87d7-de6054eafe20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/ClientPart/approved.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ClientPart/approved.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/ClientPart/create_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ClientPart/create_project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/ClientPart/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ClientPart/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/ClientPart/pending.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ClientPart/pending.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/ClientPart/rejected.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ClientPart/rejected.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/ClientPart/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ClientPart/team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/ClientPart/team1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ClientPart/team1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/ClientPart/team2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ClientPart/team2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/ClientPart/team3.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ClientPart/team3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/ClientPart/timetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ClientPart/timetable.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +53,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML/ClientPart" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML/ClientPart" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -70,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584637610132</updated>
       <workItem from="1584637611749" duration="1926000" />
-      <workItem from="1584649910982" duration="300000" />
+      <workItem from="1584649910982" duration="780000" />
     </task>
     <task id="LOCAL-00001" summary="Student Part Static Web Page">
       <created>1584637793241</created>
@@ -100,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584649979808</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Student Part Static Web Page">
+      <created>1584650367756</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584650367756</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,20 +135,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="Student Part Static Web Page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="404" y="23" key="CommitChangelistDialog2" timestamp="1584649979428">
+    <state x="404" y="23" key="CommitChangelistDialog2" timestamp="1584650367417">
       <screen x="0" y="23" width="1280" height="708" />
     </state>
     <state x="-1753" y="110" key="CommitChangelistDialog2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584639723141" />
-    <state x="404" y="23" key="CommitChangelistDialog2/0.23.1280.708@0.23.1280.708" timestamp="1584649979427" />
+    <state x="404" y="23" key="CommitChangelistDialog2/0.23.1280.708@0.23.1280.708" timestamp="1584650367417" />
     <state x="360" y="111" key="MultipleFileMergeDialog" timestamp="1584650217329">
       <screen x="0" y="23" width="1280" height="708" />
     </state>
     <state x="360" y="111" key="MultipleFileMergeDialog/0.23.1280.708@0.23.1280.708" timestamp="1584650217329" />
-    <state x="440" y="211" key="Vcs.Push.Dialog.v2" timestamp="1584650003651">
+    <state x="440" y="211" key="Vcs.Push.Dialog.v2" timestamp="1584650386766">
       <screen x="0" y="23" width="1280" height="708" />
     </state>
     <state x="-1680" y="248" key="Vcs.Push.Dialog.v2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584639734644" />
-    <state x="440" y="211" key="Vcs.Push.Dialog.v2/0.23.1280.708@0.23.1280.708" timestamp="1584650003651" />
+    <state x="440" y="211" key="Vcs.Push.Dialog.v2/0.23.1280.708@0.23.1280.708" timestamp="1584650386766" />
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1584649147142">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
