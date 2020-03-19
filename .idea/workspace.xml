@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e1d11f0-3a61-48aa-87d7-de6054eafe20" name="Default Changelist" comment="Student Part Static Web Page" />
+    <list default="true" id="3e1d11f0-3a61-48aa-87d7-de6054eafe20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +24,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -45,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584637610132</updated>
-      <workItem from="1584637611749" duration="817000" />
+      <workItem from="1584637611749" duration="959000" />
     </task>
     <task id="LOCAL-00001" summary="Student Part Static Web Page">
       <created>1584637793241</created>
@@ -54,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584637793241</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Student Part Static Web Page">
+      <created>1584639527569</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584639527569</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,9 +77,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Student Part Static Web Page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1753" y="110" key="CommitChangelistDialog2" timestamp="1584637899750">
+    <state x="-1753" y="110" key="CommitChangelistDialog2" timestamp="1584639527454">
       <screen x="-2560" y="-212" width="2560" height="1440" />
     </state>
-    <state x="-1753" y="110" key="CommitChangelistDialog2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584637899750" />
+    <state x="-1753" y="110" key="CommitChangelistDialog2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584639527454" />
+    <state x="-1680" y="248" key="Vcs.Push.Dialog.v2" timestamp="1584639697465">
+      <screen x="-2560" y="-212" width="2560" height="1440" />
+    </state>
+    <state x="-1680" y="248" key="Vcs.Push.Dialog.v2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584639697465" />
   </component>
 </project>
