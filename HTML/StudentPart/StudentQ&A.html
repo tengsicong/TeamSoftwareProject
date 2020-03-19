@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Student personal preference</title>
+    <title>Student Question & Answer</title>
     <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <!--    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
     <!--    <meta name="keywords" content="Glance Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,-->
@@ -15,22 +15,22 @@
     <!--    } </script>-->
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link href="../../css/bootstrap.css" rel='stylesheet' type='text/css'/>
 
     <!-- Custom CSS -->
-    <link href="css/style.css" rel='stylesheet' type='text/css'/>
+    <link href="../../css/style.css" rel='stylesheet' type='text/css'/>
 
     <!-- font-awesome icons CSS -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="../../css/font-awesome.css" rel="stylesheet">
     <!-- //font-awesome icons CSS -->
 
     <!-- side nav css file -->
-    <link href='css/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css'/>
+    <link href='../../css/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css'/>
     <!-- side nav css file -->
 
     <!-- js-->
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
+    <script src="../../js/jquery-1.11.1.min.js"></script>
+    <script src="../../js/modernizr.custom.js"></script>
 
     <!--webfonts-->
     <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext"
@@ -38,9 +38,9 @@
     <!--//webfonts-->
 
     <!-- Metis Menu -->
-    <script src="js/metisMenu.min.js"></script>
-    <script src="js/custom.js"></script>
-    <link href="css/custom.css" rel="stylesheet">
+    <script src="../../js/metisMenu.min.js"></script>
+    <script src="../../js/custom.js"></script>
+    <link href="../../css/custom.css" rel="stylesheet">
     <!--//Metis Menu -->
 
 </head>
@@ -129,7 +129,7 @@
                     <li class="dropdown profile_details_drop">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                             <div class="profile_img">
-                                <span class="prfil-img"><img src="images/2.jpg" alt=""> </span>
+                                <span class="prfil-img"><img src="../../images/2.jpg" alt=""> </span>
                                 <div class="user-name">
                                     <p>Sicong Teng</p>
                                     <span>Student</span>
@@ -157,59 +157,65 @@
     <!-- main content start-->
 
     <div id="page-wrapper">
-        <div class="blank-page widget-shadow scroll" style="text-align: center; padding-left: 30%;padding-right: 30%;">
-            <h2>COM3420 Software Hut Teammate Preference</h2>
-            <p style="color:red">DEADLINE: 3pm 1th February 2020.</p>
-            <p>In this module, you will build a project with 3-4 teammate, now you could choose 1 person that you would
-                like to work with and 2 persons that you would not like to work with. We try to allocate groups
-                according to each person's preferences, but we cannot guarantee that everyone will be satisfied </p>
-            <p style="color:red">Optional choose</p>
-        </div>
-
-        <br>
+        <h2 class="title1">Ask a New Qustion</h2>
         <div class="blank-page widget-shadow scroll">
-            <div class="form-group" style="align-items: center">
-                <h3>Person you like to work with</h3>
-                <select class="form-control" style="width: 40%">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                </select>
+            <h3>Create your question</h3>
+            <div class="row">
+                <div class="form-three widget-shadow">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="focusedinput" class="col-sm-2 control-label">Question Topic</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control1" id="focusedinput"
+                                       placeholder="Enter Your Question Topic">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="focusedinput" class="col-sm-2 control-label">Content</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" rows="6"
+                                          placeholder="Enter Your Question Detail"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                    <div style="text-align: center">
+                        <button type="button" class="btn btn-primary">SUBMIT</button>
+                    </div>
+
+                </div>
             </div>
         </div>
 
         <br>
-        <div class="blank-page widget-shadow scroll">
-            <div class="form-group" style="align-items: center">
-                <h3>Person you do not like to work with (1)</h3>
-                <select class="form-control" style="width: 40%">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                </select>
+        <h2 class="title1">Team Question Dashboard</h2>
+        <div class="alert alert-danger" role="alert">You do not have a question currently!</div>
+
+        <div class="panel panel-info" onclick="window.location.href='StudentQuestion.html'" style="cursor:pointer">
+            <div class="panel-heading">
+                <h2 class="panel-title">Qustion1 Topic Qustion Topic Qustion Topic Qustion Topic Qustion Topic Qustion
+                    Topip</h2>
             </div>
         </div>
 
-        <br>
-        <div class="blank-page widget-shadow scroll">
-            <div class="form-group" style="align-items: center">
-                <h3>Person you do not like to work with (2)</h3>
-                <select class="form-control" style="width: 40%">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                </select>
+        <div class="panel panel-info" onclick="window.location.href='StudentQuestion.html'" style="cursor:pointer">
+            <div class="panel-heading">
+                <h2 class="panel-title">Qustion1 Topic Qustion Topic Qustion Topic Qustion Topic Qustion Topic Qustion
+                    Topic</h2>
             </div>
         </div>
 
-        <br>
-        <div style="text-align: center">
-            <a href="StudentMainHomePage.html">
-                <button type="button" class="btn btn-primary">SUBMIT</button>
-            </a>
+        <div class="panel panel-info" onclick="window.location.href='StudentQuestion.html'" style="cursor:pointer">
+            <div class="panel-heading">
+                <h2 class="panel-title">Qustion1 Topic Qustion Topic Qustion Topic Qustion Topic Qustion Topic Qustion
+                    Topic</h2>
+            </div>
+        </div>
+
+        <div class="panel panel-info" onclick="window.location.href='StudentQuestion.html'" style="cursor:pointer">
+            <div class="panel-heading">
+                <h2 class="panel-title">Qustion1 Topic Qustion Topic Qustion Topic Qustion Topic Qustion Topic Qustion
+                    Topic</h2>
+            </div>
         </div>
     </div>
 
@@ -222,14 +228,14 @@
 </div>
 
 <!-- side nav js -->
-<script src='js/SidebarNav.min.js' type='text/javascript'></script>
+<script src='../../js/SidebarNav.min.js' type='text/javascript'></script>
 <script>
     $('.sidebar-menu').SidebarNav()
 </script>
 <!-- //side nav js -->
 
 <!-- Classie --><!-- for toggle left push menu script -->
-<script src="js/classie.js"></script>
+<script src="../../js/classie.js"></script>
 <script>
     var menuLeft = document.getElementById('cbp-spmenu-s1'),
         showLeftPush = document.getElementById('showLeftPush'),
@@ -251,12 +257,12 @@
 <!-- //Classie --><!-- //for toggle left push menu script -->
 
 <!--scrolling js-->
-<script src="js/jquery.nicescroll.js"></script>
-<script src="js/scripts.js"></script>
+<script src="../../js/jquery.nicescroll.js"></script>
+<script src="../../js/scripts.js"></script>
 <!--//scrolling js-->
 
 <!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.js"></script>
+<script src="../../js/bootstrap.js"></script>
 
 </body>
 </html>
