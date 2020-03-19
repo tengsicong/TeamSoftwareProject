@@ -19,6 +19,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="yuan peng" />
         <option value="Sicong Teng" />
       </list>
     </option>
@@ -36,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML/ClientPart" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -45,6 +46,18 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584637610132</updated>
       <workItem from="1584637611749" duration="1926000" />
-      <workItem from="1584649148115" duration="600000" />
+      <workItem from="1584649910982" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="Student Part Static Web Page">
       <created>1584637793241</created>
@@ -81,11 +94,11 @@
       <updated>1584639723274</updated>
     </task>
     <task id="LOCAL-00004" summary="Student Part Static Web Page">
-      <created>1584649173067</created>
+      <created>1584649979808</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1584649173067</updated>
+      <updated>1584649979808</updated>
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
@@ -100,24 +113,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="Student Part Static Web Page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="530" y="235" key="CommitChangelistDialog2" timestamp="1584650010810">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="404" y="23" key="CommitChangelistDialog2" timestamp="1584649979428">
+      <screen x="0" y="23" width="1280" height="708" />
     </state>
     <state x="-1753" y="110" key="CommitChangelistDialog2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584639723141" />
-    <state x="530" y="235" key="CommitChangelistDialog2/-2560.-212.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1584650010810" />
-    <state x="578" y="335" key="Vcs.Push.Dialog.v2" timestamp="1584650026796">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="404" y="23" key="CommitChangelistDialog2/0.23.1280.708@0.23.1280.708" timestamp="1584649979427" />
+    <state x="360" y="111" key="MultipleFileMergeDialog" timestamp="1584650217329">
+      <screen x="0" y="23" width="1280" height="708" />
     </state>
-    <state x="578" y="335" key="Vcs.Push.Dialog.v2/-2560.-189.2560.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1584649213438" />
+    <state x="360" y="111" key="MultipleFileMergeDialog/0.23.1280.708@0.23.1280.708" timestamp="1584650217329" />
+    <state x="440" y="211" key="Vcs.Push.Dialog.v2" timestamp="1584650003651">
+      <screen x="0" y="23" width="1280" height="708" />
+    </state>
     <state x="-1680" y="248" key="Vcs.Push.Dialog.v2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584639734644" />
-    <state x="578" y="335" key="Vcs.Push.Dialog.v2/-2560.-212.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1584650026796" />
+    <state x="440" y="211" key="Vcs.Push.Dialog.v2/0.23.1280.708@0.23.1280.708" timestamp="1584650003651" />
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1584649147142">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/-2560.-212.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1584649147142" />
-    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584649990108">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="432" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584650211732">
+      <screen x="0" y="23" width="1280" height="708" />
     </state>
-    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-2560.-212.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1584649990108" />
+    <state x="432" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.708@0.23.1280.708" timestamp="1584650211732" />
   </component>
 </project>
