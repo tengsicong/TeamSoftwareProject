@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b41e948d-ca49-4e68-9792-19fb94fdb442" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/ClientPart/approved.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ClientPart/approved.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1ZMjsD5tc2pzwMd02gdZuKOZg6L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b41e948d-ca49-4e68-9792-19fb94fdb442" name="Default Changelist" comment="" />
+      <created>1584656061667</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584656061667</updated>
+      <workItem from="1584656063658" duration="675000" />
+      <workItem from="1584656770934" duration="7935000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1584807770798">
+      <screen x="0" y="23" width="1280" height="708" />
+    </state>
+    <state x="207" y="23" key="CommitChangelistDialog2/0.23.1280.708@0.23.1280.708" timestamp="1584807770798" />
+    <state x="351" y="100" key="MultipleFileMergeDialog" timestamp="1584774816391">
+      <screen x="0" y="23" width="1280" height="708" />
+    </state>
+    <state x="351" y="100" key="MultipleFileMergeDialog/0.23.1280.708@0.23.1280.708" timestamp="1584774816391" />
+    <state x="423" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584801580545">
+      <screen x="0" y="23" width="1280" height="708" />
+    </state>
+    <state x="423" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.708@0.23.1280.708" timestamp="1584801580545" />
+  </component>
+</project>
