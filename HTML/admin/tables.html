@@ -53,35 +53,45 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             </button>
             <h1><a class="navbar-brand" href="index.html"> <img height="100%" width="160px" src="../../images/sheffield.png"></a></h1>
           </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="sidebar-menu">
-              <li class="header">MAIN FUNCTION</li>
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="sidebar-menu">
+				  <li class="header">MAIN FUNCTION</li>
 
-			  <li class="treeview">
-                <a href="tables.html">
-                <i class="fa fa-laptop"></i>
-                <span>Projects</span>
-                <i class="fa fa-angle-left pull-right"></i>
-                </a>
-			  </li>
-				<li class="treeview">
-					<a href="team_list.html">
-						<i class="fa fa-group"></i>
-						<span>Team</span>
-						<i class="fa fa-angle-left pull-right"></i>
-					</a>
-				</li>
+				  <li class="treeview">
+					  <a href="tables.html">
+						  <i class="fa fa-laptop"></i>
+						  <span>Projects</span>
+						  <i class="fa fa-angle-left pull-right"></i>
+					  </a>
+					  <ul class="treeview-menu">
+						  <li><a href="project_approved.html"><i class="fa fa-angle-right"></i> Approved  </a></li>
+						  <li><a href="project_pending.html"><i class="fa fa-angle-right"></i> Pending  </a></li>
+						  <li><a href="project_rejected.html"><i class="fa fa-angle-right"></i> Rejected  </a></li>
+					  </ul>
+				  </li>
+				  <li class="treeview">
+					  <a href="team_list.html">
+						  <i class="fa fa-group"></i>
+						  <span>Team</span>
+					  </a>
 
-              <li class="treeview">
-                <a href="timetable_appointment.html">
-                <i class="fa fa-table"></i> <span>Timetable</span>
-                <i class="fa fa-angle-left pull-right"></i>
-                </a>
+				  </li>
+				  <li class="treeview">
+					  <a href="student_list.html">
+						  <i class="fa fa-user"></i>
+						  <span>Student</span>
+					  </a>
 
-              </li>
+				  </li>
+				  <li class="treeview">
+					  <a href="timetable_main.html">
+						  <i class="fa fa-table"></i> <span>Timetable</span>
+					  </a>
 
-            </ul>
-          </div>
+				  </li>
+
+			  </ul>
+		  </div>
           <!-- /.navbar-collapse -->
       </nav>
     </aside>
@@ -91,7 +101,41 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 		<!-- header-starts -->
 		<div class="sticky-header header-section ">
 			<div class="header-left">
-
+				<!--toggle button start-->
+				<button id="showLeftPush"><i class="fa fa-bars"></i></button>
+				<!--toggle button end-->
+				<div class="profile_details_left"><!--notifications of menu start -->
+					<ul class="nofitications-dropdown">
+						<li class="dropdown head-dpdn">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i
+									class="fa fa-bell"></i><span class="badge blue">2</span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="notification_header">
+										<h3>You have 2 new notification</h3>
+									</div>
+								</li>
+								<li><a href="#">
+									<div></div>
+									<div class="notification_desc">
+										<p>Client meeting 4 had changed time</p>
+										<p><span>1 hour ago</span></p>
+									</div>
+									<div class="clearfix"></div>
+								</a></li>
+								<li><a href="#">
+									<div></div>
+									<div class="notification_desc" href="#">
+										<p>Supervisor add new comment</p>
+										<p><span>1 hour ago</span></p>
+									</div>
+									<div class="clearfix"></div>
+								</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
 				<!--notification menu end -->
 				<div class="clearfix"> </div>
 			</div>
@@ -116,6 +160,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							<ul class="dropdown-menu drp-mnu">
 								<li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li> 
 								<li> <a href="#"><i class="fa fa-user"></i> My Account</a> </li>
+								<li><a href="#"><i class="fa fa-suitcase"></i> Profile</a></li>
 								<li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
 							</ul>
 						</li>
@@ -131,37 +176,49 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 			<div class="main-page">
 				<div class="tables">
 					<table class="project-status">
-						<tr>
-
-							<td>
-								<a href="tables.html#approved"><input type="button" value="Approved" style="width:100%;height:60px;border:0.5px #E0E0E0 solid;"></a>
-							</td>
-							<td>
-								<a href="tables.html#pending">
-								<input type="button" value="Pending" style="width:100%;height:60px;border:0.5px #E0E0E0 solid;"></a>
-							</td>
-							<td>
-								<a href="tables.html#reject">
-								<input type="button" value="Rejected" style="width:100%;height:60px;border:0.5px #E0E0E0 solid;"></a>
-							</td>
-						</tr>
-
 					</table>
 
 
-					<div class="bs-example widget-shadow" data-example-id="contextual-table"> 
-						<h4 id="approved">Approved</h4>
-						<table class="table"><tbody> <tr class="active"> <th scope="row">1</th> <td>"Help me to write my paper": Developping A Tool to Support Scientific Writing</td></tr> <tr> <th scope="row">2</th> <td>A Study of Building Energy</td></tr> <tr class="success"> <th scope="row">3</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr> <th scope="row">4</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr class="info"> <th scope="row">5</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr> <th scope="row">6</th>  <td>A Study of Building Energy</td> </tr> <tr class="warning"> <th scope="row">7</th><td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr> <th scope="row">8</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr class="danger"> <th scope="row">9</th>  <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> </tbody> </table>
+					<div class="bs-example widget-shadow" data-example-id="contextual-table">
+						<h4 id="approved" style="color: #629aa9">Approved</h4>
+						<table class="table"><tbody> <tr class="active"> <th scope="row">1</th> <td>"Help me to write my paper": Developping A Tool to Support Scientific Writing<span class="label label-success" style="float:right;font-size:10px">Approved</span></td></tr>
+						<tr> <th scope="row">2</th> <td>A Study of Building Energy<span class="label label-success" style="float:right;font-size:10px">Approved</span></td></tr>
+						<tr class="success"> <th scope="row">3</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-success" style="float:right;font-size:10px">Approved</span></td> </tr>
+						<tr> <th scope="row">4</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-success" style="float:right;font-size:10px">Approved</span></td> </tr>
+						<tr class="info"> <th scope="row">5</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-success" style="float:right;font-size:10px">Approved</span></td> </tr>
+						<tr> <th scope="row">6</th>  <td>A Study of Building Energy<span class="label label-success" style="float:right;font-size:10px">Approved</span></td> </tr>
+						<tr class="warning"> <th scope="row">7</th><td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-success" style="float:right;font-size:10px">Approved</span></td> </tr>
+						<tr> <th scope="row">8</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-success" style="float:right;font-size:10px">Approved</span></td> </tr>
+						<tr class="danger"> <th scope="row">9</th>  <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-success" style="float:right;font-size:10px">Approved</span></td> </tr>
+						</tbody> </table>
 					</div>
 
 					<div class="bs-example widget-shadow" data-example-id="contextual-table">
-						<h4 id="pending">Pending</h4>
-						<table class="table"><tbody> <tr class="active"> <th scope="row">1</th> <td>"Help me to write my paper": Developping A Tool to Support Scientific Writing</td></tr> <tr> <th scope="row">2</th> <td>A Study of Building Energy</td></tr> <tr class="success"> <th scope="row">3</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr> <th scope="row">4</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr class="info"> <th scope="row">5</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr> <th scope="row">6</th>  <td>A Study of Building Energy</td> </tr> <tr class="warning"> <th scope="row">7</th><td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr> <th scope="row">8</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr class="danger"> <th scope="row">9</th>  <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> </tbody> </table>
+						<h4 id="pending" style="color: #629aa9">Pending</h4>
+						<table class="table"><tbody> <tr class="active"> <th scope="row">1</th> <td>"Help me to write my paper": Developping A Tool to Support Scientific Writing<span class="label label-info" style="float:right;font-size:10px">Pending</span></td></tr>
+						<tr> <th scope="row">2</th> <td>A Study of Building Energy<span class="label label-info" style="float:right;font-size:10px">Pending</span></td></tr>
+						<tr class="success"> <th scope="row">3</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-info" style="float:right;font-size:10px">Pending</span></td> </tr>
+						<tr> <th scope="row">4</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-info" style="float:right;font-size:10px">Pending</span></td> </tr>
+						<tr class="info"> <th scope="row">5</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-info" style="float:right;font-size:10px">Pending</span></td> </tr>
+						<tr> <th scope="row">6</th>  <td>A Study of Building Energy<span class="label label-info" style="float:right;font-size:10px">Pending</span></td> </tr>
+						<tr class="warning"> <th scope="row">7</th><td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-info" style="float:right;font-size:10px">Pending</span></td> </tr>
+						<tr> <th scope="row">8</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-info" style="float:right;font-size:10px">Pending</span></td> </tr>
+						<tr class="danger"> <th scope="row">9</th><td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-info" style="float:right;font-size:10px">Pending</span></td> </tr>
+						</tbody> </table>
 					</div>
 
 					<div class="bs-example widget-shadow" data-example-id="contextual-table">
-						<h4 id="reject">Reject</h4>
-						<table class="table"><tbody> <tr class="active"> <th scope="row">1</th> <td>"Help me to write my paper": Developping A Tool to Support Scientific Writing</td></tr> <tr> <th scope="row">2</th> <td>A Study of Building Energy</td></tr> <tr class="success"> <th scope="row">3</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr> <th scope="row">4</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr class="info"> <th scope="row">5</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr> <th scope="row">6</th>  <td>A Study of Building Energy</td> </tr> <tr class="warning"> <th scope="row">7</th><td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr> <th scope="row">8</th> <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> <tr class="danger"> <th scope="row">9</th>  <td>Attention-gated memory-augmented reinforcement learning in the brain</td> </tr> </tbody> </table>
+						<h4 id="reject" style="color: #629aa9">Rejected</h4>
+						<table class="table"><tbody> <tr class="active"> <th scope="row">1</th> <td>"Help me to write my paper": Developping A Tool to Support Scientific Writing<span class="label label-danger" style="float:right;font-size:10px">Rejected</span></td></tr>
+						<tr><th scope="row">2</th><td>A Study of Building Energy<span class="label label-danger" style="float:right;font-size:10px">Rejected</span></td></tr>
+						<tr class="success"> <th scope="row">3</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-danger" style="float:right;font-size:10px">Rejected</span></td> </tr>
+						<tr> <th scope="row">4</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-danger" style="float:right;font-size:10px">Rejected</span></td> </tr>
+						<tr class="info"> <th scope="row">5</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-danger" style="float:right;font-size:10px">Rejected</span></td> </tr>
+						<tr> <th scope="row">6</th>  <td>A Study of Building Energy<span class="label label-danger" style="float:right;font-size:10px">Rejected</span></td> </tr>
+						<tr class="warning"> <th scope="row">7</th><td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-danger" style="float:right;font-size:10px">Rejected</span></td> </tr>
+						<tr> <th scope="row">8</th> <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-danger" style="float:right;font-size:10px">Rejected</span></td></tr>
+						<tr class="danger"> <th scope="row">9</th>  <td>Attention-gated memory-augmented reinforcement learning in the brain<span class="label label-danger" style="float:right;font-size:10px">Rejected</span></td> </tr>
+						</tbody> </table>
 					</div>
 
 				</div>

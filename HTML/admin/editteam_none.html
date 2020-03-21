@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Admin-approved</title>
+    <title>Edit team</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Glance Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -63,19 +63,29 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                 <span>Projects</span>
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
+                            <ul class="treeview-menu">
+                                <li><a href="project_approved.html"><i class="fa fa-angle-right"></i> Approved  </a></li>
+                                <li><a href="project_pending.html"><i class="fa fa-angle-right"></i> Pending  </a></li>
+                                <li><a href="project_rejected.html"><i class="fa fa-angle-right"></i> Rejected  </a></li>
+                            </ul>
                         </li>
                         <li class="treeview">
                             <a href="team_list.html">
                                 <i class="fa fa-group"></i>
                                 <span>Team</span>
-                                <i class="fa fa-angle-left pull-right"></i>
                             </a>
-                        </li>
 
+                        </li>
                         <li class="treeview">
-                            <a href="timetable_appointment.html">
+                            <a href="student_list.html">
+                                <i class="fa fa-user"></i>
+                                <span>Student</span>
+                            </a>
+
+                        </li>
+                        <li class="treeview">
+                            <a href="timetable_main.html">
                                 <i class="fa fa-table"></i> <span>Timetable</span>
-                                <i class="fa fa-angle-left pull-right"></i>
                             </a>
 
                         </li>
@@ -91,24 +101,46 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     <!-- header-starts -->
     <div class="sticky-header header-section ">
         <div class="header-left">
-
+            <!--toggle button start-->
+            <button id="showLeftPush"><i class="fa fa-bars"></i></button>
+            <!--toggle button end-->
+            <div class="profile_details_left"><!--notifications of menu start -->
+                <ul class="nofitications-dropdown">
+                    <li class="dropdown head-dpdn">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i
+                                class="fa fa-bell"></i><span class="badge blue">2</span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="notification_header">
+                                    <h3>You have 2 new notification</h3>
+                                </div>
+                            </li>
+                            <li><a href="#">
+                                <div></div>
+                                <div class="notification_desc">
+                                    <p>Client meeting 4 had changed time</p>
+                                    <p><span>1 hour ago</span></p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </a></li>
+                            <li><a href="#">
+                                <div></div>
+                                <div class="notification_desc" href="#">
+                                    <p>Supervisor add new comment</p>
+                                    <p><span>1 hour ago</span></p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
             <!--notification menu end -->
             <div class="clearfix"> </div>
         </div>
         <div class="header-right">
 
-
-            <!--search-box-->
-            <div class="search-box">
-                <form class="input">
-                    <input class="sb-search-input input__field--madoka" placeholder="Search..." type="search" id="input-31" />
-                    <label class="input__label" for="input-31">
-                        <svg class="graphic" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
-                            <path d="m0,0l404,0l0,77l-404,0l0,-77z"/>
-                        </svg>
-                    </label>
-                </form>
-            </div><!--//end-search-box-->
 
             <div class="profile_details">
                 <ul>
@@ -128,6 +160,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                         <ul class="dropdown-menu drp-mnu">
                             <li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li>
                             <li> <a href="#"><i class="fa fa-user"></i> My Account</a> </li>
+                            <li><a href="#"><i class="fa fa-suitcase"></i> Profile</a></li>
                             <li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
                         </ul>
                     </li>
@@ -140,74 +173,115 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     <!-- //header-ends -->
     <!-- main content start-->
     <div id="page-wrapper">
-        <div class="main-page">
-            <div class="tables">
-                <table class="project-status">
-                    <tr>
-                        <td>
-                            <input onclick=" window.open('approved_detail.html')" type="button" value="Approved" style="width:100%;height:60px;border:0.5px #E0E0E0 solid;">
-                        </td>
-                        <td>
-                            <input onclick=" window.open('pending_detail.html')" type="button" value="Pending" style="width:100%;height:60px;border:0.5px #E0E0E0 solid;">
-                        </td>
-                        <td>
-                            <input onclick=" window.open('rejected_detail.html')" type="button" value="Rejected" style="width:100%;height:60px;border:0.5px #E0E0E0 solid;">
-                        </td>
-                    </tr>
-
-                </table>
-                <div class="bs-example widget-shadow" data-example-id="contextual-table">
+        <div class="typography">
+            <div class="main-page">
+                <div>
                     <table>
-                        <tr class="title1">
-                            <th style="width: 70%; font-size:x-large">"Help me to write my paper": Developping A Tool to Support Scientific Writing</th>
-                            <td style="width: 30%; font-size:larger; padding-left: 15% ">Team No.2</td>
-                        </tr>
+                        <h2 class="title1">TEAM</h2>
                     </table>
-                    <br/>
-                    <table width="100%">
-                        <tr>
-                            <td class="teacher-name">
-                                Staff Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Client Name
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <textarea class="textarea-comment col-md-12" rows="10" placeholder="Project details..."></textarea></td>
-                        </tr>
-                    </table >
-                    <br/>
-                    <table width="100%" style="text-align: center" border="1px">
-                        <tr>
-                            <td>
-                                <input onclick=" window.open('#')" type="button" value="Delete Team" style="margin-left:60px;width:300px;height:50px;border:0.5px #E0E0E0 solid;">
-                            </td>
-                            <td>
-                                <input onclick=" window.open('team.html')"type="button" value="Manage Team Members" style="margin-left:100px;width:300px;height:50px;border:0.5px #E0E0E0 solid;">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td> </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input onclick=" window.open('timetable_detail.html')"type="button" value="Manage Timetable" style="margin-left:60px;width:300px;height:50px;border:0.5px #E0E0E0 solid;">
-                            </td>
-                            <td>
-                                <input onclick=" window.open('#')"type="button" value="Send Message" style="margin-left:100px;width:300px;height:50px;border:0.5px #E0E0E0 solid;">
-                            </td>
-                        </tr>
-                    </table>
-
-                    <div style="padding-left: 80%; padding-top: 5%;padding-bottom: 5%">
-                        <a href="tables.html">
-                        <input type="button" value="Back" style="margin-left:50px;width:100px;height:60px;border:0.5px #E0E0E0 solid;"></a>
-                    </div>
-
                 </div>
-
+                <div class="blank-page">
+                    <div align="center"><h2>Team 1</h2></div><br>
+                    <div align="center" class="alert alert-danger" role="alert"width="80%">No project allocated!</div>
+                <div>
+                    <table class="auto-group">
+                        <tr width="100%">
+                            <th>
+                                Project
+                            </th>
+                            <td>
+                                <select name="selector1" id="selector1" class="form-control-project">
+                                    <option>pppppp 1</option>
+                                    <option>hhhhh 2</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr width="100%">
+                            <th>
+                                Client
+                            </th>
+                            <td>
+                                <select name="selector1" id="selector1" class="form-control-project">
+                                    <option>Tom</option>
+                                    <option>Bob</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr width="100%">
+                            <th>
+                                Supervisor
+                            </th>
+                            <td>
+                                <select name="selector1" id="selector1" class="form-control-project">
+                                    <option>Alan</option>
+                                    <option>Jack</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr width="100%">
+                            <th>
+                                Student 1
+                            </th>
+                            <td>
+                                <select name="selector1" id="selector1" class="form-control-project">
+                                    <option>A</option>
+                                    <option>b</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr width="100%">
+                            <th>
+                                Student 2
+                            </th>
+                            <td>
+                                <select name="selector1" id="selector1" class="form-control-project">
+                                    <option>A</option>
+                                    <option>b</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr width="100%">
+                            <th>
+                                Student 3
+                            </th>
+                            <td>
+                                <select name="selector1" id="selector1" class="form-control-project">
+                                    <option>A</option>
+                                    <option>b</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr width="100%">
+                            <th>
+                                Student 4
+                            </th>
+                            <td>
+                                <select name="selector1" id="selector1" class="form-control-project">
+                                    <option>A</option>
+                                    <option>b</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr width="100%">
+                            <th>
+                                Student 5
+                            </th>
+                            <td>
+                                <select name="selector1" id="selector1" class="form-control-project">
+                                    <option>A</option>
+                                    <option>b</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                <div>
+                        <input type="button" value="Edit" class="btn btn-primary" style="margin-left:93%">
+                </div>
+                </div>
+                </div>
             </div>
-        </div>
-    </div>
+
+
     <!--footer-->
     <div class="footer">
         <p>&copy; 2020 Group 3 Team Project. </p>
