@@ -187,17 +187,22 @@
             <br>
             <h2 class="title1">My Team</h2>
             <div class="blank-page widget-shadow scroll">
-                <h2 class="title1">SSIT Team 1</h2>
+                <h2><b>SSIT Team 1</b></h2>
+                <br>
                 <table width="100%">
                     <tr>
                         <td width="80%">
                             <table width="100%" id="TeamMemberTable">
                                 <tr>
-                                    <th width="200px">Team Representer</th>
+                                    <th width="200px">Supervisor:</th>
+                                    <td>SupervisorName</td>
+                                </tr>
+                                <tr>
+                                    <th width="200px">Team Representer:</th>
                                     <td>Person 1</td>
                                 </tr>
                                 <tr>
-                                    <th>Team Member</th>
+                                    <th>Team Member:</th>
                                     <td>Person 2</td>
                                 </tr>
                                 <tr>
@@ -215,9 +220,37 @@
                             </table>
                         </td>
                         <td>
-                            <button type="button" class="btn btn-primary" style="width: 160px; float: right">Set New
-                                Represent
+                            <button type="button" class="btn btn-primary btn-lg" style="float:right" data-toggle="modal"
+                                    data-target="#setnewrepresenter" data-whatever="@SetNewRepresenter">Set new
+                                representer
                             </button>
+                            <div class="modal fade" id="setnewrepresenter" tabindex="-1" role="dialog"
+                                 aria-labelledby="exampleModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModalLabel">Set New Representer</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-group" style="align-items: center">
+                                                <h4>Choose a team mumber to be the new team representer</h4>
+                                                <br>
+                                                <select class="form-control" style="width: 100%">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary">Set</button>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </td>
                     </tr>
                 </table>
@@ -249,15 +282,30 @@
             <!--my project section (show if allocated)-->
             <br>
             <h2 class="title1">My Project</h2>
-            <div class="panel panel-primary" onclick="window.location.href='StudentMyProject.html'"
-                 style="cursor:pointer">
-                <div class="panel-heading">
-                    <h2 class="panel-title"><a href="ds.html">Project 1</a></h2>
-                </div>
-                <div class="panel-body">
-                    <p>project content project contentproject contentproject contentproject contentproject
-                        contentproject contentproject contentproject contentproject contentproject content</p>
-                </div>
+
+            <div class="blank-page widget-shadow scroll">
+                <a href="approved.html">
+                    <div>
+                        <h3 style="color:black"><b>Project 1</b><span class="label label-success"
+                                                                      style="float:right;font-size:15px">Approved</span>
+                        </h3>
+                    </div>
+                    <br>
+                    <div>
+                        <table width="100%">
+                            <tr>
+                                <td width="30%"><p><b>Client:</b> String</p></td>
+                                <td width="30%"><p><b>Supervisor:</b> String</p></td>
+                                <td width="30%"><p><b>Team:</b> SSIT Team 01</p></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br>
+                    <div>
+                        Here is the overview of the project.<i class="fa fa-angle-right"
+                                                               style="float:right;font-size:20px"></i>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

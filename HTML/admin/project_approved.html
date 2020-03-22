@@ -29,7 +29,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     <!--webfonts-->
     <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <!--//webfonts-->
-    <link href='../../css/admin/admincss.css' media='all' rel='stylesheet' type='text/css'/>
+<!--    <link href='../../css/admin/admincss.css' media='all' rel='stylesheet' type='text/css'/>-->
 
     <!-- Metis Menu -->
     <script src="../../js/metisMenu.min.js"></script>
@@ -65,7 +65,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                             <ul class="treeview-menu">
                                 <li><a href="project_list.html#approved"><i class="fa fa-angle-right"></i> Approved  </a></li>
                                 <li><a href="project_list.html#pending"><i class="fa fa-angle-right"></i> Pending  </a></li>
-                                <li><a href="project_list.html#reject"><i class="fa fa-angle-right"></i> Rejected  </a></li>
+                                <li><a href="project_list.html#rejected"><i class="fa fa-angle-right"></i> Rejected  </a></li>
                             </ul>
                         </li>
                         <li class="treeview">
@@ -185,47 +185,45 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     <!-- main content start-->
     <div id="page-wrapper">
         <h2 class="title1">Project </h2>
-        <div class="blank-page widget-shadow scroll" id="style-2 div1">
-            <h2>Which testing method is the best one in Software Engineering?</h2><br>
-            <table class="auto-group">
+        <div class="blank-page widget-shadow scroll">
+            <h2>Which testing method is the best one in Software Engineering?<span class="label label-success" style="float:right;font-size:15px">approved</span></h2>
+            <br>
+            <p><b>Client:</b> Department of computer science</p>
+            <br>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Detail / content / Description</h3>
+                </div>
+                <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis quam sit amet nisi
+                    dictum, in
+                    iaculis dolor lobortis. Aenean placerat purus non faucibus sdljflsdjflsdjfojsdofjofjasjdfa us
+                    non
+                    faucibus sdljflsdjflsdjfojsdofjofjasjdfa.
+                </div>
+            </div>
+            <textarea rows="6" class="form-control1 control2" placeholder="detail :" ></textarea>
+            <table width="100%">
                 <tr>
-                    <td>
-                        <p>Client: Tom</p>
-                    </td>
-                    <td>
-                        <p>Team: Team 2</p>
-                    </td>
-                    <td>
-                        <p>Staff: Bob</p>
-                    </td>
-                    <td style="width: 10%">
-                        <span class="label label-success" style="float:right;font-size:10px">approved</span>
-                    </td>
-                </tr>
-                <tr width="100%">
-                    <td colspan="4">
-                        <textarea rows="6" class="form-control1 control2" placeholder="detail :" ></textarea>
-                    </td>
+                    <td width="95%"><button type="button" class="btn btn-primary" style="float: right">Edit</button></td>
+                    <td><button type="button" class="btn btn-danger" data-dismiss="modal" style="float: right">Pending</button></td>
                 </tr>
             </table>
         </div>
         <br>
         <div class="blank-page widget-shadow scroll">
-            <table class="auto-group">
-                <tr width="100%">
-                    <td>
-                        <h2 class="title1">allocate team</h2>
-                    </td>
+            <h2 class="title1">Allocate team</h2>
+            <table width="100%">
                 </tr>
-                <tr width="100%">
+                <tr>
                     <td style="width:90%">
-                        <select name="selector1" id="selector1" class="form-control-project">
-                            <option>team 1</option>
-                            <option>team 2</option>
+                        <select name="selector1" id="selector1" class="form-control" style="width: 50%">
+                            <option>Team 1</option>
+                            <option>Team 2</option>
                         </select>
                     </td>
-                    <td style="padding-left: 1%;">
-                        <button onclick="{ location.href='project_approved.html#project'}"style="width: 90%" type="button" class="btn btn-primary">submit</button>
+                    <td>
+                        <button onclick="{ location.href='project_approved.html#project'}"style="float: right" type="button" class="btn btn-primary">submit</button>
                     </td>
                 </tr>
             </table>
@@ -233,90 +231,61 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
         </div>
         <br>
-        <div class="blank-page widget-shadow scroll">
-            <div class="grid_3 grid_5 widget-shadow">
-                <table class="auto-group" id="project">
-                    <tr width="100%">
-                        <th style="text-align:center;width: 25%">
-                            Team 1
-                        </th>
-                        <td style="text-align:center;width: 15%">
-                            client:<p>Cindy</p>
-                        </td>
-                        <td style="text-align:center;width: 30%">
-                            students:
-                            <ul style="list-style-type: none">
-                                <li>AssA</li>
-                                <li>AA</li>
-                                <li>AA</li>
-                                <li>AA</li>
-                            </ul>
-                        </td>
-                        <td style="text-align:center;width: 15%">
-                            supervisor:<p>Tom</p>
-                        </td>
-                        <td style="text-align:center;">
-                            <button style="width: 50%;align-items: center" type="button" class="btn btn-danger">delete</button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="grid_3 grid_5 widget-shadow">
-                <table class="auto-group">
-                    <tr width="100%">
-                        <th style="text-align:center;width: 25%">
-                            Team 1
-                        </th>
-                        <td style="text-align:center;width: 15%">
-                            client:<p>Cindy</p>
-                        </td>
-                        <td style="text-align:center;width: 30%">
-                            students:
-                            <ul style="list-style-type: none">
-                                <li>AssA</li>
-                                <li>AhhhhhhhhhhA</li>
-                                <li>AA</li>
-                                <li>AA</li>
-                            </ul>
-                        </td>
-                        <td style="text-align:center;width: 15%">
-                            supervisor:<p>Tom</p>
-                        </td>
-                        <td style="text-align:center;">
-                            <button style="width: 50%;align-items: center"type="button" class="btn btn-danger">delete</button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="grid_3 grid_5 widget-shadow">
-                <table class="auto-group">
-                    <tr width="100%">
-                        <th style="text-align:center;width: 25%">
-                            Team 1
-                        </th>
-                        <td style="text-align:center;width: 15%">
-                            client:<p>Cindy</p>
-                        </td>
-                        <td style="text-align:center;width: 30%">
-                            students:
-                            <ul style="list-style-type: none">
-                                <li>AssA</li>
-                                <li>AA</li>
-                                <li>AA</li>
-                                <li>AA</li>
-                            </ul>
-                        </td>
-                        <td style="text-align:center;width: 15%">
-                            supervisor:<p>Tom</p>
-                        </td>
-                        <td style="text-align:center;">
-                            <button style="width: 50%;align-items: center"type="button" class="btn btn-danger">delete</button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
 
+        <div class="blank-page widget-shadow scroll">
+            <h2><b>Allocated Team</b></h2>
+            <div class="grid_3 grid_5 widget-shadow">
+                <a href="#">
+                    <div>
+                        <h3><b>SSIT Team 1</b></h3>
+                    </div>
+                    <div>
+                        <table width="100%" >
+                            <tr>
+                                <td width="40%" ><p ><b>Supervisor:</b> String</p></td>
+                                <td width="20em"><p><b>Student:</b></p></td>
+                                <td><p></b>aaaaaa<br>bbbbbbb<br>ccccc</p></td>
+                                <td class="btn btn-danger" style="float: right" >Delete</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a></div>
+
+            <div class="grid_3 grid_5 widget-shadow">
+                <a href="#">
+                    <div>
+                        <h3><b>SSIT Team 1</b></h3>
+                    </div>
+                    <div>
+                        <table width="100%" >
+                            <tr>
+                                <td width="40%" ><p ><b>Supervisor:</b> String</p></td>
+                                <td width="20em"><p><b>Student:</b></p></td>
+                                <td><p></b>aaaaaa<br>bbbbbbb<br>ccccc</p></td>
+                                <td class="btn btn-danger" style="float: right" >Delete</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a></div>
+
+            <div class="grid_3 grid_5 widget-shadow">
+                <a href="#">
+                    <div>
+                        <h3><b>SSIT Team 1</b></h3>
+                    </div>
+                    <div>
+                        <table width="100%" >
+                            <tr>
+                                <td width="40%" ><p ><b>Supervisor:</b> String</p></td>
+                                <td width="20em"><p><b>Student:</b></p></td>
+                                <td><p></b>aaaaaa<br>bbbbbbb<br>ccccc</p></td>
+                                <td class="btn btn-danger" style="float: right" >Delete</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a></div>
+        </div>
+    </div>
 </div>
 <br>
 <!--footer-->
