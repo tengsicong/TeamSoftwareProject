@@ -19,7 +19,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
     <!-- Custom CSS -->
     <link href="../../css/style.css" rel='stylesheet' type='text/css' />
-    <link href="../../css/custom/detail-of-project.css" rel="stylesheet" type="text/css" />
 
     <!-- font-awesome icons CSS -->
     <link href="../../css/font-awesome.css" rel="stylesheet">
@@ -126,38 +125,85 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
         <!-- main content start-->
         <div id="page-wrapper">
             <div class="main-page">
-                <div class="title1" id="project-id">Project id</div>
-                <div class="col-md-6 panel-grids">
-                    <div class="panel panel-primary " id="Introduction">
-                        <div class="panel-heading" id="intro-heading"><div class="panel-title" id="intro-title">Introduction of the Project</div> </div>
-                        <div class="panel-body"> Information of the project  </div>
+                <h2 class="title1">My Project</h2>
+                <div class="blank-page widget-shadow scroll">
+                    <h3>Project Name</h3>
+                    <table>
+                        <tr>
+                            <td width="500px"><P>Client : Department of Astronomic</P></td>
+                            <td width="500px"><p>Supervisor: Emma Norling</p></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <!--                <div class="col-md-12 panel-grids">-->
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"> Panel Info</h3>
+                        </div>
+                        <div class="panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis quam sit amet nisi dictum, in iaculis dolor lobortis. Aenean placerat purus non faucibus sdljflsdjflsdjfojsdofjofjasjdfa us non faucibus sdljflsdjflsdjfojsdofjofjasjdfa.
+                        </div>
                     </div>
-                </div>
-                <div class="icon-box col-md-2 col-sm-2" id="mark-sign"><a class="agile-icon" href="Marking.html" id="mark-button"> Mark for this team</a></div>
-                <div class="clearfix"> </div>
-                <div class="title1" id="meeting-title">Meeting History</div>
-                <div class="blank-page widget-shadow scroll" id="style-2 div1">
-                    <a href="index.html">Weekly Meeting No.</a>
-                    <p>Member Name List;</p>
-                    <p class="Date">Date</p>
-                </div>
-                <div class="blank-page widget-shadow scroll" id="style-2 div2">
-                    <a href="index.html">Weekly Meeting No.</a>
-                    <p>Member Name List;</p>
-                    <p class="Date">Date</p>
-                </div>
-                <div class="blank-page widget-shadow scroll" id="style-2 div3">
-                    <a href="index.html">Weekly Meeting No.</a>
-                    <p>Member Name List;</p>
-                    <p class="Date">Date</p>
+                    <!--                </div>-->
                 </div>
             </div>
+            <br>
+            <div class="blank-page widget-shadow scroll">
+                <h2><b>Meeting List</b></h2>
+                <br>
+                <br>
+                <div class="panel panel-info">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading"><b>Meeting</b></div>
+                    <!-- Table -->
+                    <table class="table">
+                        <tr>
+                            <th></th>
+                            <th>Time</th>
+                            <th>Place</th>
+                            <th>Supervisor</th>
+                        </tr>
+                        <tr class="clickable-row" data-href="Marking.html" style="cursor: pointer">
+                            <th>Meeting 1</th>
+                            <td>01/01/2020 12:00</td>
+                            <td>Broad Lane Building LT01</td>
+                            <td>Emma Norling</td>
+                        </tr>
+                        <tr class="clickable-row" data-href="#" style="cursor: pointer">
+                            <th>Meeting 2</th>
+                            <td>01/01/2020 12:00</td>
+                            <td>Broad Lane Building LT01</td>
+                            <td>Emma Norling</td>
+                        </tr>
+                        <tr class="clickable-row" data-href="#" style="cursor: pointer">
+                            <th>Meeting 3</th>
+                            <td>01/01/2020 12:00</td>
+                            <td>Broad Lane Building LT01</td>
+                            <td>Emma Norling</td>
+                        </tr>
+                        <tr class="clickable-row" data-href="#" style="cursor: pointer">
+                            <th>Meeting 4</th>
+                            <td>01/01/2020 12:00</td>
+                            <td>Broad Lane Building LT01</td>
+                            <td>Emma Norling</td>
+                        </tr>
+                        <tr class="clickable-row" data-href="#" style="cursor: pointer">
+                            <th>Meeting 5</th>
+                            <td>01/01/2020 12:00</td>
+                            <td>Broad Lane Building LT01</td>
+                            <td>Emma Norling</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
         </div>
-        
+
+
         <!--footer-->
-		<div class="footer">
-			<p>&copy; 2020 software system and internet technology (Msc) Group 3</p>
-		</div>
+        <div class="footer">
+            <p>&copy; 2020 software system and internet technology (Msc) Group 3</p>
+        </div>
         <!--//footer-->
     </div>
 
@@ -196,6 +242,14 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../../js/bootstrap.js"> </script>
+
+    <script type="text/javascript">
+        $(function($) {
+            $(".clickable-row").click(function () {
+                window.location = $(this).data("href");
+            })
+        })
+    </script>
 
 </body>
 </html>
