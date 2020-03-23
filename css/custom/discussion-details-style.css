@@ -5,15 +5,8 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
 
-
-.question-info {
-  width: 97%;
-  margin: 1em auto 0;
-}
-
 /*--.reply-panel--*/
 .reply-panel {
-  width: 97%;
   padding: 1.5em;
   margin: auto
 }
@@ -26,7 +19,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 /*--.input-reply-panel--*/
 .input-reply-panel {
-  width: 97%;
   padding: 1.5em;
   margin: auto
 }
