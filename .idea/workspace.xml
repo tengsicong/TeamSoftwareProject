@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa99dd8e-54ec-49e3-93dc-abef8e8f365f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/StaffPart/Meeting Detail(Post).html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/StaffPart/Meeting Detail(Post).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/StaffPart/detail-of-project.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/StaffPart/detail-of-project.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +51,8 @@
       <recent name="D:\TeamSoftwareProject\css\custom" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Meeting Detail(Post).html">
+  <component name="RunManager" selected="JavaScript Debug.detail-of-project.html">
     <configuration name="Meeting Detail(Post).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TeamSoftwareProject/HTML/StaffPart/Meeting Detail(Post).html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Meeting Detail(Pre).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TeamSoftwareProject/HTML/StaffPart/Meeting Detail(Pre).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="detail-of-project.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TeamSoftwareProject/HTML/StaffPart/detail-of-project.html" useBuiltInWebServerPort="true">
@@ -67,13 +64,16 @@
     <configuration name="moban.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TeamSoftwareProject/HTML/StudentPart/moban.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="role-select.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TeamSoftwareProject/HTML/LoginPart/role-select.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.detail-of-project.html" />
+        <item itemvalue="JavaScript Debug.role-select.html" />
         <item itemvalue="JavaScript Debug.Meeting Detail(Post).html" />
         <item itemvalue="JavaScript Debug.moban.html" />
         <item itemvalue="JavaScript Debug.discussion-details.html" />
-        <item itemvalue="JavaScript Debug.Meeting Detail(Pre).html" />
-        <item itemvalue="JavaScript Debug.detail-of-project.html" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +101,7 @@
       <updated>1584656061667</updated>
       <workItem from="1584656063658" duration="675000" />
       <workItem from="1584656770934" duration="8155000" />
-      <workItem from="1584910919437" duration="14481000" />
+      <workItem from="1584910919437" duration="15341000" />
     </task>
     <task id="LOCAL-00001" summary="Modify approved page">
       <created>1584807800949</created>
@@ -187,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584927278280</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Complete Meeting Detail(Post).html">
+      <created>1584928347819</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584928347819</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Modify the links">
+      <created>1584928477088</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584928477088</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,19 +219,21 @@
     <MESSAGE value="Some tiny changes in StaffPart and add Meeting Detail(Pre).html" />
     <MESSAGE value="Slightly change" />
     <MESSAGE value="Synchronize code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Synchronize code" />
+    <MESSAGE value="Complete Meeting Detail(Post).html" />
+    <MESSAGE value="Modify the links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify the links" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584908529995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584908529995" />
-    <state x="311" y="0" key="CommitChangelistDialog2" timestamp="1584928347191">
+    <state x="311" y="0" key="CommitChangelistDialog2" timestamp="1584928475966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-2146" y="-212" key="CommitChangelistDialog2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584811921757" />
     <state x="207" y="23" key="CommitChangelistDialog2/0.23.1280.708@0.23.1280.708" timestamp="1584807829923" />
-    <state x="311" y="0" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584928347191" />
+    <state x="311" y="0" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584928475966" />
     <state width="856" height="466" key="DebuggerActiveHint" timestamp="1584909951760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -283,21 +299,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584910877762" />
-    <state x="360" y="138" key="Vcs.Push.Dialog.v2" timestamp="1584928350370">
+    <state x="360" y="138" key="Vcs.Push.Dialog.v2" timestamp="1584928481032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-2080" y="-21" key="Vcs.Push.Dialog.v2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584811397946" />
     <state x="240" y="117" key="Vcs.Push.Dialog.v2/0.23.1280.708@0.23.1280.708" timestamp="1584807823549" />
-    <state x="360" y="138" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584928350370" />
+    <state x="360" y="138" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584928481032" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584910919458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584910919458" />
-    <state x="132" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584928323277">
+    <state x="132" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584929336865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="423" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.708@0.23.1280.708" timestamp="1584801580545" />
-    <state x="132" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584928323277" />
+    <state x="132" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584929336865" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584924318611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
