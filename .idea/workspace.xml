@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b41e948d-ca49-4e68-9792-19fb94fdb442" name="Default Changelist" comment="Modify approved page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1ZMjsD5tc2pzwMd02gdZuKOZg6L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b41e948d-ca49-4e68-9792-19fb94fdb442" name="Default Changelist" comment="" />
+      <created>1584656061667</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584656061667</updated>
+      <workItem from="1584656063658" duration="675000" />
+      <workItem from="1584656770934" duration="8155000" />
+      <workItem from="1584812770065" duration="26133000" />
+      <workItem from="1584965310674" duration="4188000" />
+    </task>
+    <task id="LOCAL-00001" summary="Modify approved page">
+      <created>1584807800949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584807800949</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modify approved page">
+      <created>1584809820220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584809820220</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modify approved page">
+      <created>1584810393716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584810393716</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modify approved page">
+      <created>1584811396887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584811396887</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modify approved page">
+      <created>1584811921877</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584811921877</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modify approved page">
+      <created>1584811927388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584811927388</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Modify approved page">
+      <created>1584812145447</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584812145447</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Modify approved page">
+      <created>1584813069415</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584813069415</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Modify approved page">
+      <created>1584894086964</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584894086964</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Modify approved page">
+      <created>1584894387643</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584894387643</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Modify approved page">
+      <created>1584895309809</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584895309809</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Modify approved page">
+      <created>1584896940240</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584896940240</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Modify approved page">
+      <created>1584897707519</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584897707519</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Modify approved page">
+      <created>1584897764268</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584897764268</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Modify approved page">
+      <created>1584897849338</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584897849338</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Modify approved page">
+      <created>1584901135581</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584901135581</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Modify approved page">
+      <created>1584907947998</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584907947998</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Client Part">
+      <created>1584973734154</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1584973734154</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Modify approved page">
+      <created>1584975306792</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1584975306792</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Client Part" />
+    <MESSAGE value="Modify approved page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify approved page" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1542" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584973097156">
+      <screen x="-2560" y="-212" width="2560" height="1440" />
+    </state>
+    <state x="-1542" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584973097156" />
+    <state x="-2146" y="-212" key="CommitChangelistDialog2" timestamp="1584975306616">
+      <screen x="-2560" y="-212" width="2560" height="1440" />
+    </state>
+    <state x="-2146" y="-212" key="CommitChangelistDialog2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584975306616" />
+    <state x="207" y="23" key="CommitChangelistDialog2/0.23.1280.708@0.23.1280.708" timestamp="1584807829923" />
+    <state x="-1858" y="-55" key="MultipleFileMergeDialog" timestamp="1584965329618">
+      <screen x="-2560" y="-212" width="2560" height="1440" />
+    </state>
+    <state x="-1858" y="-55" key="MultipleFileMergeDialog/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584965329618" />
+    <state x="351" y="100" key="MultipleFileMergeDialog/0.23.1280.708@0.23.1280.708" timestamp="1584774816391" />
+    <state x="-1605" y="237" key="RollbackChangesDialog" timestamp="1584897289930">
+      <screen x="-2560" y="-212" width="2560" height="1440" />
+    </state>
+    <state x="-1605" y="237" key="RollbackChangesDialog/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584897289930" />
+    <state x="-1771" y="147" key="SettingsEditor" timestamp="1584812432624">
+      <screen x="-2560" y="-212" width="2560" height="1440" />
+    </state>
+    <state x="-1771" y="147" key="SettingsEditor/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584812432624" />
+    <state x="-2080" y="-21" key="Vcs.Push.Dialog.v2" timestamp="1584975310029">
+      <screen x="-2560" y="-212" width="2560" height="1440" />
+    </state>
+    <state x="-2080" y="-21" key="Vcs.Push.Dialog.v2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584975310029" />
+    <state x="240" y="117" key="Vcs.Push.Dialog.v2/0.23.1280.708@0.23.1280.708" timestamp="1584807823549" />
+    <state x="-1714" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584975749316">
+      <screen x="-2560" y="-212" width="2560" height="1440" />
+    </state>
+    <state x="-1714" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584975749316" />
+    <state x="846" y="565" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1440@0.0.2560.1440" timestamp="1584833846233" />
+    <state x="423" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.708@0.23.1280.708" timestamp="1584801580545" />
+    <state x="-1615" y="170" width="670" height="676" key="search.everywhere.popup" timestamp="1584879338067">
+      <screen x="-2560" y="-212" width="2560" height="1440" />
+    </state>
+    <state x="-1615" y="170" width="670" height="676" key="search.everywhere.popup/-2560.-212.2560.1440/0.0.1680.1050@-2560.-212.2560.1440" timestamp="1584879338067" />
+  </component>
+</project>
