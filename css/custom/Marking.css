@@ -1,20 +1,13 @@
-
 .marking{
-    width: 300px;
+    width: 19%;
     height: 150px;
     text-align: center;
     line-height: 75px;
+    margin: 4% 7% 2% 7%;
 }
-
-.marking-item{
-
-}
-
 .row1{
     display: inline-block;
-    margin: 100px 100px 100px 100px;
 }
 .row2{
     display: inline-block;
-    margin: 100px 100px 100px 100px;
 }

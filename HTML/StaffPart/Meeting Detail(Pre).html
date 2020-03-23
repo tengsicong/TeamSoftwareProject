@@ -19,6 +19,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
     <!-- Custom CSS -->
     <link href="../../css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="../../css/custom/Meeting%20Detail.css">
 
     <!-- font-awesome icons CSS -->
     <link href="../../css/font-awesome.css" rel="stylesheet">
@@ -40,6 +41,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     <script src="../../js/metisMenu.min.js"></script>
     <script src="../../js/custom.js"></script>
     <link href="../../css/custom.css" rel="stylesheet">
+
     <!--//Metis Menu -->
 
 </head>
@@ -156,135 +158,102 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             <div class="clearfix"> </div>
         </div>
         <!-- //header-ends -->
-        <!-- main content start-->
-        <div id="page-wrapper">
-            <div class="main-page">
-                <h2 class="title1">My Project</h2>
-                <div class="blank-page widget-shadow scroll">
-                    <h3>Project Name</h3>
-                    <table>
-                        <tr>
-                            <td width="500px"><P>Client : Department of Astronomic</P></td>
-                            <td width="500px"><p>Supervisor: Emma Norling</p></td>
-                            <td width="500px"><p>Team: Team ID</p></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <!--                <div class="col-md-12 panel-grids">-->
-                    <div class="panel panel-info">
-                        <div class="panel-heading">
-                            <h3 class="panel-title"> Panel Info</h3>
-                        </div>
-                        <div class="panel-body">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis quam sit amet nisi dictum, in iaculis dolor lobortis. Aenean placerat purus non faucibus sdljflsdjflsdjfojsdofjofjasjdfa us non faucibus sdljflsdjflsdjfojsdofjofjasjdfa.
-                        </div>
+    <!-- main content start-->
+    <div id="page-wrapper">
+        <div class="main-page">
+            <h2 class="title1">Meeting Detail</h2>
+            <div class="blank-page widget-shadow scroll">
+                <h3>Meeting Number</h3>
+
+                <br>
+                <!--                <div class="col-md-12 panel-grids">-->
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"> Meeting info</h3>
                     </div>
-                    <!--                </div>-->
+                    <div class="panel-body">
+                        <table>
+                            <tr width="500px"><P>Client : Department of Astronomic</P></tr>
+                            <tr width="500px"><p>Supervisor: Emma Norling</p></tr>
+                            <tr width="500px"><p>Team: Team ID</p></tr>
+                            <tr width="500px"><p>Date : xx/xx/xxxx</p></tr>
+                            <tr width="500px"><p>Venue : place</p></tr>
+                        </table>
+                    </div>
                 </div>
             </div>
             <br>
-            <div class="blank-page widget-shadow scroll">
-                <h2><b>Meeting List</b></h2>
-                <br>
-                <br>
-                <div class="panel panel-info">
-                    <!-- Default panel contents -->
-                    <div class="panel-heading"><b>Meeting</b></div>
-                    <!-- Table -->
-                    <table class="table">
-                        <tr>
-                            <th></th>
-                            <th>Time</th>
-                            <th>Place</th>
-                            <th>Supervisor</th>
-                        </tr>
-                        <tr class="clickable-row" data-href="#" style="cursor: pointer">
-                            <th>Meeting 1</th>
-                            <td>01/01/2020 12:00</td>
-                            <td>Broad Lane Building LT01</td>
-                            <td>Emma Norling</td>
-                        </tr>
-                        <tr class="clickable-row" data-href="Meeting Detail(Pre).html" style="cursor: pointer">
-                            <th>Meeting 2</th>
-                            <td>01/01/2020 12:00</td>
-                            <td>Broad Lane Building LT01</td>
-                            <td>Emma Norling</td>
-                        </tr>
-                        <tr class="clickable-row" data-href="Meeting Detail(Pre).html" style="cursor: pointer">
-                            <th>Meeting 3</th>
-                            <td>01/01/2020 12:00</td>
-                            <td>Broad Lane Building LT01</td>
-                            <td>Emma Norling</td>
-                        </tr>
-                        <tr class="clickable-row" data-href="Meeting Detail(Pre).html" style="cursor: pointer">
-                            <th>Meeting 4</th>
-                            <td>01/01/2020 12:00</td>
-                            <td>Broad Lane Building LT01</td>
-                            <td>Emma Norling</td>
-                        </tr>
-                        <tr class="clickable-row" data-href="Meeting Detail(Pre).html" style="cursor: pointer">
-                            <th>Meeting 5</th>
-                            <td>01/01/2020 12:00</td>
-                            <td>Broad Lane Building LT01</td>
-                            <td>Emma Norling</td>
-                        </tr>
-                    </table>
-                </div>
+            <h2 class="title1">Change Meeting Detail</h2>
+            <div class="form-group row1 blank-page widget-shadow scroll" >
+                <h3>Change Date </h3><br>
+                <input type="text" class="form-control" id="InputFeedback" placeholder="xx/xx/xxxx" style="width: 100%"><br>
+                <button type="submit" class="btn btn-default" style="margin-left: 80%">Submit</button>
             </div>
-
+            <div class="form-group row1 blank-page widget-shadow scroll" style="align-items: center">
+                <h3>Change Supervisor</h3><br>
+                <select class="form-control" style="width: 100%">
+                    <option>Supervisor 1 </option>
+                    <option>Supervisor 2</option>
+                    <option>Supervisor 3</option>
+                    <option>Supervisor 4</option>
+                    <option>Supervisor 5</option>
+                </select><br>
+                <button type="submit" class="btn btn-default" style="margin-left: 80%">Submit</button>
+            </div>
         </div>
-
-
-        <!--footer-->
-        <div class="footer">
-            <p>&copy; 2020 software system and internet technology (Msc) Group 3</p>
-        </div>
-        <!--//footer-->
     </div>
 
-    <!-- side nav js -->
-    <script src='../../js/SidebarNav.min.js' type='text/javascript'></script>
-    <script>
-        $('.sidebar-menu').SidebarNav()
-    </script>
-    <!-- //side nav js -->
-    <!-- Classie --><!-- for toggle left push menu script -->
-    <script src="../../js/classie.js"></script>
-    <script>
-        var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
-            showLeftPush = document.getElementById( 'showLeftPush' ),
-            body = document.body;
 
-        showLeftPush.onclick = function() {
-            classie.toggle( this, 'active' );
-            classie.toggle( body, 'cbp-spmenu-push-toright' );
-            classie.toggle( menuLeft, 'cbp-spmenu-open' );
-            disableOther( 'showLeftPush' );
-        };
+    <!--footer-->
+    <div class="footer">
+        <p>&copy; 2020 software system and internet technology (Msc) Group 3</p>
+    </div>
+    <!--//footer-->
+</div>
 
-        function disableOther( button ) {
-            if( button !== 'showLeftPush' ) {
-                classie.toggle( showLeftPush, 'disabled' );
-            }
+<!-- side nav js -->
+<script src='../../js/SidebarNav.min.js' type='text/javascript'></script>
+<script>
+    $('.sidebar-menu').SidebarNav()
+</script>
+<!-- //side nav js -->
+<!-- Classie --><!-- for toggle left push menu script -->
+<script src="../../js/classie.js"></script>
+<script>
+    var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+        showLeftPush = document.getElementById( 'showLeftPush' ),
+        body = document.body;
+
+    showLeftPush.onclick = function() {
+        classie.toggle( this, 'active' );
+        classie.toggle( body, 'cbp-spmenu-push-toright' );
+        classie.toggle( menuLeft, 'cbp-spmenu-open' );
+        disableOther( 'showLeftPush' );
+    };
+
+    function disableOther( button ) {
+        if( button !== 'showLeftPush' ) {
+            classie.toggle( showLeftPush, 'disabled' );
         }
-    </script>
-    <!-- //Classie --><!-- //for toggle left push menu script -->
+    }
+</script>
+<!-- //Classie --><!-- //for toggle left push menu script -->
 
-    <!--scrolling js-->
-    <script src="../../js/jquery.nicescroll.js"></script>
-    <script src="../../js/scripts.js"></script>
-    <!--//scrolling js-->
+<!--scrolling js-->
+<script src="../../js/jquery.nicescroll.js"></script>
+<script src="../../js/scripts.js"></script>
+<!--//scrolling js-->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../../js/bootstrap.js"> </script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../../js/bootstrap.js"> </script>
 
-    <script type="text/javascript">
-        $(function($) {
-            $(".clickable-row").click(function () {
-                window.location = $(this).data("href");
-            })
+<script type="text/javascript">
+    $(function($) {
+        $(".clickable-row").click(function () {
+            window.location = $(this).data("href");
         })
-    </script>
+    })
+</script>
 
 </body>
 </html>
