@@ -33,15 +33,16 @@ text-decoration:underline;
 .role-body {
 	padding: 2em 0;
 }
-.role-select-page .role-button {
+
+.role-body > .role-button {
     border: none;
     outline: none;
     cursor: pointer;
     color: #fff;
     background: #F2B33F;
     width: 50%;
-    padding: .6em 1em;
     font-size: 1em;
+    padding: .6em 1em;
     margin: 1.2em auto 0;
     display: block;
 	transition: 0.5s all;
@@ -50,7 +51,8 @@ text-decoration:underline;
 	-ms-transition: 0.5s all;
 	-o-transition: 0.5s all;
 }
-.login-page .role-button:hover{
+
+.role-body > .role-button:hover{
     background: #337ab7;
 }
 /*--//role-select-page--*/
@@ -90,10 +92,10 @@ text-decoration:underline;
     margin: 0em 0em 1.5em 0em;
 }
 .login-page input.user {
-    background: url(../images/user.png)no-repeat 8px 16px #fff;
+    background: url(../../images/user.png)no-repeat 8px 16px #fff;
 }
 .login-page input.lock {
-    background: url(../images/lock.png)no-repeat 8px 16px #fff;
+    background: url(../../images/lock.png)no-repeat 8px 16px #fff;
 }
 .login-page label.checkbox {
     margin: 0 0 0 1.3em;
@@ -252,14 +254,14 @@ p.creating {
     margin: 0em 0 1.5em 0;
 }
 .signup-page input[type="email"]{
-    background: url(../images/mail.png)no-repeat 8px 16px #fff;
+    background: url(../../images/mail.png)no-repeat 8px 16px #fff;
 	background-size: 20px;
 }
 .signup-page input[type="text"] {
-    background: url(../images/user.png)no-repeat 8px 16px #fff;
+    background: url(../../images/user.png)no-repeat 8px 16px #fff;
 }
 .signup-page input[type="password"] {
-    background: url(../images/lock.png)no-repeat 8px 16px #fff;
+    background: url(../../images/lock.png)no-repeat 8px 16px #fff;
 }
 .signup-page input[type="text"]:focus ,.signup-page input[type="email"]:focus,.signup-page input[type="password"]:focus,.login-page input[type="email"]:focus,.login-page input[type="password"]:focus{
     border-color: #337ab7;
