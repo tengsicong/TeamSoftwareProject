@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Marking details</title>
+    <title>Marking</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Glance Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -19,7 +19,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
     <!-- Custom CSS -->
     <link href="../../css/style.css" rel='stylesheet' type='text/css' />
-
 
     <!-- font-awesome icons CSS -->
     <link href="../../css/font-awesome.css" rel="stylesheet">
@@ -42,6 +41,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     <script src="../../js/custom.js"></script>
     <link href="../../css/custom.css" rel="stylesheet">
     <!--//Metis Menu -->
+    <link href='../../css/admin/admincss.css' media='all' rel='stylesheet' type='text/css'/>
 
 </head>
 <body class="cbp-spmenu-push">
@@ -63,12 +63,12 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                         <ul class="sidebar-menu">
                             <li class="header">MAIN NAVIGATION</li>
                             <li class="treeview">
-                                <a href="MyProject.html">
+                                <a href="my_project.html">
                                     <span>My Projects</span>
                                 </a>
                             </li>
                             <li class="treeview">
-                                <a href="Mytimetable.html">
+                                <a href="my_timetable.html">
                                     <span>My Timetable</span>
                                 </a>
                             </li>
@@ -157,36 +157,85 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             <div class="clearfix"> </div>
         </div>
         <!-- //header-ends -->
-        <!-- main content start-->
+    <!-- main content start-->
         <div id="page-wrapper">
-            <div class="main-page">
-                <h2 class="title1">Marking Item No.</h2>
-                <div class="clearfix"> </div>
-                <div class="blank-page widget-shadow scroll">
-                    <div class="form-group" style="align-items: center">
-                        <h3>Mark for this item</h3>
-                        <br>
-                        <select class="form-control" style="width: 100%">
-                            <option>1 and criteria of 1 </option>
-                            <option>2 and criteria of 2</option>
-                            <option>3 and criteria of 3</option>
-                            <option>4 and criteria of 4</option>
-                            <option>5 and criteria of 5</option>
-                        </select>
-                        <br>
-                        <button type="submit" class="btn btn-default" style="margin-left: 90%">Submit</button>
-                    </div>
-                </div>
-                <div class="clearfix"> </div>
-                <br>
-                <div class="blank-page widget-shadow scroll">
-                    <div class="form-group" style="align-items: center">
-                        <h3>Feedback</h3>
-                        <br>
-                        <form>
-                            <div class="form-group"> <input type="text" class="form-control" id="InputFeedback" placeholder="Input your feedback here" style="height: 300px"> </div>
-                            <button type="submit" class="btn btn-default" style="margin-left: 90%">Submit</button>
-                        </form>
+
+            <div class="blank-page widget-shadow scroll">
+                <h2 style="text-align: center"><b>Edit SSIT Team 01</b></h2>
+                <div class="row">
+                    <br>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="selector1" class="col-sm-2 control-label">Mark Iteam 1</label>
+                            <div class="col-sm-8">
+                                <select name="selector1" id="selector1" class="form-control-project">
+                                    <option>1 - mark criteria</option>
+                                    <option>2 - mark criteria</option>
+                                    <option>3 - mark criteria</option>
+                                    <option>4 - mark criteria</option>
+                                    <option>5 - mark criteria</option>
+                                </select>
+                                <p>&nbsp</p>
+                                <textarea name="t1" id="t1" style="width: 100%; resize: none" rows="3" placeholder="Enter your reason"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="selector2" class="col-sm-2 control-label">Supervisor</label>
+                            <div class="col-sm-8">
+                                <select name="selector2" id="selector2" class="form-control-project">
+                                    <option>pppppp 1</option>
+                                    <option>hhhhh 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="selector3" class="col-sm-2 control-label">Student 1</label>
+                            <div class="col-sm-8">
+                                <select name="selector3" id="selector3" class="form-control-project">
+                                    <option>pppppp 1</option>
+                                    <option>hhhhh 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="selector4" class="col-sm-2 control-label">Student 2</label>
+                            <div class="col-sm-8">
+                                <select name="selector4" id="selector4" class="form-control-project">
+                                    <option>pppppp 1</option>
+                                    <option>hhhhh 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="selector5" class="col-sm-2 control-label">Student 3</label>
+                            <div class="col-sm-8">
+                                <select name="selector5" id="selector5" class="form-control-project">
+                                    <option>pppppp 1</option>
+                                    <option>hhhhh 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="selector6" class="col-sm-2 control-label">Student 4</label>
+                            <div class="col-sm-8">
+                                <select name="selector6" id="selector6" class="form-control-project">
+                                    <option>pppppp 1</option>
+                                    <option>hhhhh 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="selector7" class="col-sm-2 control-label">Student 5</label>
+                            <div class="col-sm-8">
+                                <select name="selector7" id="selector7" class="form-control-project">
+                                    <option>pppppp 1</option>
+                                    <option>hhhhh 2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                    <div style="text-align: center">
+                        <button onclick="window.location='team_list.html'" type="button" class="btn btn-primary">SUBMIT</button>
                     </div>
                 </div>
             </div>
@@ -233,7 +282,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     <!--//scrolling js-->
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../../js/bootstrap.js"> </script>`
+    <script src="../../js/bootstrap.js"> </script>
 
 </body>
 </html>
