@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Student Project Page</title>
+    <title>Student Homepage</title>
     <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <!--    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
     <!--    <meta name="keywords" content="Glance Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,-->
@@ -58,15 +58,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <h1><a class="navbar-brand" href="StudentMainHomePage.html"><span class="fa fa-area-chart"></span>
+                    <h1><a class="navbar-brand" href="student_homepage.html"><span class="fa fa-area-chart"></span>
                         Team Project</a></h1>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="sidebar-menu">
                         <li class="header">MAIN NAVIGATION</li>
-                        <li class="treeview"><a href="StudentMainHomePage.html"><i class="fa fa-dashboard"></i> <span>Home Page</span></a>
+                        <li class="treeview"><a href="student_homepage.html"><i class="fa fa-dashboard"></i> <span>Home Page</span></a>
                         </li>
-                        <li class="treeview"><a href="StudentMainAllProject.html"><i class="fa fa-folder"></i> <span>All Projects</span></a>
+                        <li class="treeview"><a href="student_all_projects.html"><i class="fa fa-folder"></i> <span>All Projects</span></a>
                         </li>
                         <li class="treeview"><a href="StudentTimetable.html"><i class="fa fa-table"></i> <span>My Timetables</span></a>
                         </li>
@@ -155,124 +155,166 @@
     <!-- //header-ends -->
 
     <!-- main content start-->
+
     <div id="page-wrapper">
-        <h2 class="title1">My project</h2>
-        <div class="alert alert-danger" role="alert">You do not have a project currently!</div>
-
-        <div class="panel panel-primary" onclick="window.location.href='StudentMyProject.html'" style="cursor:pointer">
-            <div class="panel-heading">
-                <h2 class="panel-title">Project 1</h2>
+        <div class="main-page">
+            <!-- personal preference section (hide after grouped)-->
+            <h2 class="title1">Home page</h2>
+            <div class="blank-page widget-shadow scroll" id="style-2 div1">
+                <div class="media">
+                    <div class="media-body">
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    <h4 class="media-heading">Personal teammate preference</h4>
+                                    <p>You could choose 1 person you would like to work with and at most 2 person you do
+                                        not like to work with.</p>
+                                </td>
+                                <td style="text-align: right;">
+                                    <a href="StudentPersonalPreference.html">
+                                        <button type="button" class="btn btn-primary" href="StudentPersonalPreference">
+                                            Edit
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
-            <div class="panel-body">
-                <p>project content project contentproject contentproject contentproject contentproject contentproject
-                    contentproject contentproject contentproject contentproject content</p>
-            </div>
-        </div>
-
-
-        <br>
-        <h2 class="title1">Favourite projects</h2>
-        <div class="alert alert-info" role="alert">Your could add your favourite projects to this collection by click
-            the star on right side of the project!
-        </div>
-
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <table width="100%">
-                    <tr>
-                        <td><h2 class="panel-title"><a href="ds.html">Project 1</a></h2></td>
-                        <td style="cursor: pointer"><i class="fa fa-star" style="float: right"></i></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="panel-body">
-                <p>project content project contentproject contentproject contentproject contentproject contentproject
-                    contentproject contentproject contentproject contentproject content</p>
-            </div>
-        </div>
-
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <table width="100%">
-                    <tr>
-                        <td><h2 class="panel-title"><a href="ds.html">Project 1</a></h2></td>
-                        <td style="cursor: pointer"><i class="fa fa-star" style="float: right"></i></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="panel-body">
-                <p>project content project contentproject contentproject contentproject contentproject contentproject
-                    contentproject contentproject contentproject contentproject content</p>
-            </div>
-        </div>
-
-
-        <br>
-<!--        <h2 class="title1">All projects</h2>-->
-
-        <div class="blank-page widget-shadow scroll" id="style-2 div1">
-            <h2>All Projects</h2>
+            <!-- personal preference section (hide after grouped) end-->
+            <!--my team section (show if grouped)-->
             <br>
-        <div class="panel panel-info">
-            <div class="panel-heading">
+            <div class="blank-page widget-shadow scroll">
+                <h2 class="title1"><b>My Team</b></h2>
+            <div class="blank-page widget-shadow scroll">
+                <h2><b>SSIT Team 1</b></h2>
+                <br>
                 <table width="100%">
                     <tr>
-                        <td><h2 class="panel-title"><a href="ds.html">Project 1</a></h2></td>
-                        <td style="cursor: pointer"><i class="fa fa-star-o" style="float: right"></i></td>
+                        <td width="80%">
+                            <table width="100%" id="TeamMemberTable">
+                                <tr>
+                                    <th width="200px">Supervisor:</th>
+                                    <td>SupervisorName</td>
+                                </tr>
+                                <tr>
+                                    <th width="200px">Team Representer:</th>
+                                    <td>Person 1</td>
+                                </tr>
+                                <tr>
+                                    <th>Team Member:</th>
+                                    <td>Person 2</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Person 3</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Person 4</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Person 5</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-primary btn-lg" style="float:right" data-toggle="modal"
+                                    data-target="#setnewrepresenter" data-whatever="@SetNewRepresenter">Set new
+                                representer
+                            </button>
+                            <div class="modal fade" id="setnewrepresenter" tabindex="-1" role="dialog"
+                                 aria-labelledby="exampleModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModalLabel">Set New Representer</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-group" style="align-items: center">
+                                                <h4>Choose a team mumber to be the new team representer</h4>
+                                                <br>
+                                                <select class="form-control" style="width: 100%">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary">Set</button>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
                     </tr>
                 </table>
             </div>
-            <div class="panel-body">
-                <p>project content project contentproject contentproject contentproject contentproject contentproject
-                    contentproject contentproject contentproject contentproject content</p>
-            </div>
-        </div>
-
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <table width="100%">
-                    <tr>
-                        <td><h2 class="panel-title"><a href="ds.html">Project 1</a></h2></td>
-                        <td style="cursor: pointer"><i class="fa fa-star-o" style="float: right"></i></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="panel-body">
-                <p>project content project contentproject contentproject contentproject contentproject contentproject
-                    contentproject contentproject contentproject contentproject content</p>
-            </div>
-        </div>
-
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <table width="100%">
-                    <tr>
-                        <td><h2 class="panel-title"><a href="ds.html">Project 1</a></h2></td>
-                        <td style="cursor: pointer"><i class="fa fa-star-o" style="float: right"></i></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="panel-body">
-                <p>project content project contentproject contentproject contentproject contentproject contentproject
-                    contentproject contentproject contentproject contentproject content</p>
-            </div>
-        </div>
-
-            <div class="grid_3 grid_5 widget-shadow"/>
-            <a href="approved.html">
-                <div>
-                    <h3 class="hdg" >Project 1<span class="label label-success" style="float:right;font-size:10px">Approved</span></h3>
+            <!--my team section (show if grouped) end-->
+            <!--my team section add project preference (show if grouped, person is representer) end-->
+            <br>
+            <div class="blank-page widget-shadow scroll">
+                <div class="media">
+                    <div class="media-body">
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    <h4 class="media-heading">Team project preference</h4>
+                                    <p>As the representer of the team, you could rank your team's favourite
+                                        projects.</p>
+                                </td>
+                                <td style="text-align: right;">
+                                    <a href="StudentTeamPreference.html">
+                                        <button type="button" class="btn btn-primary">RANK</button>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-                <div>
-                    Here is the overview of the project.<i class="fa fa-angle-right" style="float:right;font-size:20px"></i>
-                </div>
-            </a>
+            </div>
+            </div>
+
+            <!--my project section (show if allocated)-->
+            <br>
+            <div class="blank-page widget-shadow scroll">
+                <h2 class="title1"><b>My Project</b></h2>
+
+            <div class="blank-page widget-shadow scroll">
+                <a href="approved.html">
+                    <div>
+                        <h3 style="color:black"><b>Project 1</b><span class="label label-success"
+                                                                      style="float:right;font-size:15px">Approved</span>
+                        </h3>
+                    </div>
+                    <br>
+                    <div>
+                        <table width="100%">
+                            <tr>
+                                <td width="30%"><p><b>Client:</b> String</p></td>
+                                <td width="30%"><p><b>Supervisor:</b> String</p></td>
+                                <td width="30%"><p><b>Team:</b> SSIT Team 01</p></td>
+                                <td><i class="fa fa-angle-right"
+                                       style="float:right;font-size:20px"></i></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br>
+                    <div>
+                        Here is the overview of the project.
+                    </div>
+                </a>
+            </div>
         </div>
-
         </div>
-
-
     </div>
+
 
     <!--footer-->
     <div class="footer">

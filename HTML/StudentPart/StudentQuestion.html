@@ -58,15 +58,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <h1><a class="navbar-brand" href="StudentMainHomePage.html"><span class="fa fa-area-chart"></span>
+                    <h1><a class="navbar-brand" href="student_homepage.html"><span class="fa fa-area-chart"></span>
                         Team Project</a></h1>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="sidebar-menu">
                         <li class="header">MAIN NAVIGATION</li>
-                        <li class="treeview"><a href="StudentMainHomePage.html"><i class="fa fa-dashboard"></i> <span>Home Page</span></a>
+                        <li class="treeview"><a href="student_homepage.html"><i class="fa fa-dashboard"></i> <span>Home Page</span></a>
                         </li>
-                        <li class="treeview"><a href="StudentMainAllProject.html"><i class="fa fa-folder"></i> <span>All Projects</span></a>
+                        <li class="treeview"><a href="student_all_projects.html"><i class="fa fa-folder"></i> <span>All Projects</span></a>
                         </li>
                         <li class="treeview"><a href="StudentTimetable.html"><i class="fa fa-table"></i> <span>My Timetables</span></a>
                         </li>
@@ -159,62 +159,92 @@
     <div id="page-wrapper">
         <h2 class="title1">Question & Answer</h2>
         <div class="blank-page widget-shadow scroll">
-            <h3><b>Qustion Topic</b></h3>
-            <br>
-            <table class="table table-bordered">
-                <thead>
-                <tr>
-                    <th width="20%">Name</th>
-                    <th width="10%">Time</th>
-                    <th WIDTH="70%">Content</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Sicong</td>
-                    <td>01/01/2020</td>
-                    <td>
-                        myquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestion
-                        myquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestionmyquestion
-                    </td>
-                </tr>
-                <tr>
-                    <td>Sicong</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Emma Norling</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Sicong</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Emma Norling<span class="badge badge-danger">NEW!</span></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                </tbody>
-            </table>
+            <h2><b>Question Topic balbalabla</b></h2>
+            <div class="bs-example widget-shadow" data-example-id="contextual-table" style="height:300px;overflow-y:auto;">
+                <table class="table">
+                    <tbody>
+                    <tr class="active">
+                        <th width="15%" scope="row"><b>Sicong Teng:</b></th>
+                        <td width="75%"><b>Hi, I want to create a team with xxx project.</b></td>
+                        <td width="10%">01/01/2020 12:00</td>
+                    </tr>
+                    <tr>
+                        <td><b>Supervisor:</b></td>
+                        <td>xxxx. Sorry</td>
+                        <td width="70%">01/01/2020 12:00</td>
+                    </tr>
+                    <tr class="active">
+                        <th ><b>Sicong Teng:</b></th>
+                        <td ><b>Hi, I want to create a team with xxx project.</b></td>
+                        <td >01/01/2020 12:00</td>
+                    </tr>
+                    <tr>
+                        <td><b>Supervisor:</b></td>
+                        <td>xxxx. Sorry</td>
+                        <td>01/01/2020 12:00</td>
+                    </tr>
+                    <tr class="active">
+                        <th ><b>Sicong Teng:</b></th>
+                        <td ><b>Hi, I want to create a team with xxx project.</b></td>
+                        <td >01/01/2020 12:00</td>
+                    </tr>
+                    <tr>
+                        <td><b>Supervisor:</b></td>
+                        <td>xxxx. Sorry</td>
+                        <td >01/01/2020 12:00</td>
+                    </tr>
+                    <tr class="active">
+                        <th scope="row"><b>Sicong Teng:</b></th>
+                        <td ><b>Hi, I want to create a team with xxx project.</b></td>
+                        <td >01/01/2020 12:00</td>
+                    </tr>
+                    <tr>
+                        <td><b>Supervisor:</b></td>
+                        <td>xxxx. Sorry</td>
+                        <td >01/01/2020 12:00</td>
+                    </tr>
+                    <tr class="active">
+                        <th ><b>Sicong Teng:</b></th>
+                        <td ><b>Hi, I want to create a team with xxx project.</b></td>
+                        <td >01/01/2020 12:00</td>
+                    </tr>
+                    <tr>
+                        <td><b>Supervisor:</b></td>
+                        <td>xxxx. Sorry</td>
+                        <td >01/01/2020 12:00</td>
+                    </tr>
 
-            <form class="form-horizontal">
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Reply</label>
-                    <div class="col-sm-8">
-                        <textarea class="form-control" rows="6" placeholder="Enter Your Reply "></textarea>
-                    </div>
-                </div>
-            </form>
-            <div style="text-align: center">
-                <button type="button" class="btn btn-primary">SUBMIT</button>
+
+
+                    </tbody>
+                </table>
             </div>
+            <br>
 
+            <div class="row">
+                <br>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="project_name" class="col-sm-2 control-label">Make a comment</label>
+                        <div class="col-sm-8">
+                            <textarea id="project_name" rows="6" class="form-control form-control">asdfdsafs</textarea>
+                        </div>
+                    </div>
+                </form>
+                <div style="text-align: center">
+                    <a href="project_pending.html.html">
+                        <button type="button" class="btn btn-primary">SUBMIT</button>
+                    </a>
+
+                </div>
+            </div>
         </div>
+
+
     </div>
+
+
+
 
 
     <!--footer-->
