@@ -28,4 +28,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   height: 12.0em;
   resize: none;
 }
+
+.input-reply-panel > .sub-reply {
+  margin-left: 95%;
+}
 /*--//.input-reply-panel--*/

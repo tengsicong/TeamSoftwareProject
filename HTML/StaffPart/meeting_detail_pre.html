@@ -164,16 +164,14 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             <h2 class="title1">Meeting Detail</h2>
             <div class="blank-page widget-shadow scroll">
                 <h3>Meeting Number</h3>
-
                 <br>
-                <!--                <div class="col-md-12 panel-grids">-->
                 <div class="panel panel-info">
                     <div class="panel-heading">
                         <h3 class="panel-title"> Meeting info</h3>
                     </div>
                     <div class="panel-body">
                         <table>
-                            <tr width="500px"><P>Client : Department of Astronomic</P></tr>
+                            <tr width="500px"><p>Client : Department of Astronomic</p></tr>
                             <tr width="500px"><p>Supervisor: Emma Norling</p></tr>
                             <tr width="500px"><p>Team: Team ID</p></tr>
                             <tr width="500px"><p>Date : xx/xx/xxxx</p></tr>
@@ -184,21 +182,57 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             </div>
             <br>
             <h2 class="title1">Change Meeting Detail</h2>
-            <div class="form-group row1 blank-page widget-shadow scroll" >
-                <h3>Change Date </h3><br>
-                <input type="text" class="form-control" id="InputFeedback" placeholder="xx/xx/xxxx" style="width: 100%"><br>
-                <button type="submit" class="btn btn-default" style="margin-left: 80%">Submit</button>
+            <div class="panel panel-success request-info"> 
+                <div class="panel-heading"> 
+                    <h3 class="panel-title">Your last request has been approved</h3> 
+                </div> 
+                <div class="panel-body">
+                    <table style="width: 90%; margin: auto;">
+                        <tr>
+                            <th style = "width: 10%;">Date</th>
+                            <td style="padding: 0.5em;"><p>14:00 28/03/2020 → 14:00 29/03/2020</p></td>
+                        </tr>
+                        <tr>
+                            <th style = "width: 10%;">Supervisor</th>
+                            <td style="padding: 0.5em;"><p>Supervisor 1 → Supervisor 2</p></td>
+                        </tr>
+                        <tr>
+                            <th style = "width: 10%;">Reason</th>
+                            <td style="padding: 0.5em;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis quam sit amet nisi dictum, in iaculis dolor lobortis. Aenean placerat purus non faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis quam sit amet nisi dictum, in iaculis dolor lobortis. Aenean placerat purus non faucibus.</p></td>
+                        </tr>
+                        <tr>
+                            <th style = "width: 10%;">Status</th>
+                            <td style="padding: 0.5em;"><p>Approved</p></td>
+                        </tr>
+                    </table>
+                </div> 
             </div>
-            <div class="form-group row1 blank-page widget-shadow scroll" style="align-items: center">
-                <h3>Change Supervisor</h3><br>
-                <select class="form-control" style="width: 100%">
-                    <option>Supervisor 1 </option>
-                    <option>Supervisor 2</option>
-                    <option>Supervisor 3</option>
-                    <option>Supervisor 4</option>
-                    <option>Supervisor 5</option>
-                </select><br>
-                <button type="submit" class="btn btn-default" style="margin-left: 80%">Submit</button>
+            <div class="form-group row1 blank-page widget-shadow scroll" >
+                <table style="width: 90%; margin: auto;">
+                    <tr>
+                        <th style = "width: 15%;">Change Date</th>
+                        <td style="padding: 0.5em;"><input type="text" class="form-control" id="InputFeedback" value = "14:00 29/03/2020" placeholder="HH:MM DD/MM/YYYY" style="width: 30%"></td>
+                    </tr>
+                    <tr>
+                        <th style = "width: 15%;">Change Supervisor</th>
+                        <td style="padding: 0.5em;">
+                            <select class="form-control" style="width: 30%">
+                                <option>Supervisor 1</option>
+                                <option selected>Supervisor 2</option>
+                                <option>Supervisor 3</option>
+                                <option>Supervisor 4</option>
+                                <option>Supervisor 5</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style = "width: 15%;">Reason</th>
+                        <td style="padding: 0.5em;">
+                            <textarea class= "input-reply-area" placeholder="Change timetable reason" wrap="virtual" style="width: 80%; height: 6.0em; resize: none;"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <button type="submit" class="btn btn-primary" style="margin-left: 90%">Submit</button>
             </div>
         </div>
     </div>
