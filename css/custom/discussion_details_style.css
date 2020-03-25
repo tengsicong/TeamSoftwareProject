@@ -9,21 +9,13 @@
   color: #555;
   line-height: 1.8em;
 }
-/*--//.reply-panel--*/
-
-/*--.input-reply-panel--*/
-.input-reply-panel {
-  padding: 1.5em;
-  margin: auto
-}
-
-.input-reply-panel > .input-reply-area {
+.reply-area {
   width: 100%;
   height: 12.0em;
   resize: none;
 }
 
-.input-reply-panel > .sub-reply {
+.sub-reply {
   margin-left: 95%;
 }
-/*--//.input-reply-panel--*/
+/*--//.reply-panel--*/
